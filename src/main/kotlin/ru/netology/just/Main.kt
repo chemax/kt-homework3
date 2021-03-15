@@ -66,7 +66,6 @@ fun justNow(seconds: Int): Boolean {
     return seconds < 60
 }
 
-
 fun main() {
     println(agoToText(50000))
 }
