@@ -9,9 +9,9 @@ const val mastercardStaticComs = 20_00
 const val visaPercentComs = 0.0075
 const val visaMinComsLimit = 35_00
 
-fun main() {
-    println(getComission(1, prevTransferSum = 50000000, transferSum = 5000))
-}
+//fun main() {
+//    println(getComission(2, prevTransferSum = 50000000, transferSum = 5000000))
+//}
 
 fun getComission(type: Int = 0, prevTransferSum: Int = 0, transferSum: Int): Int {
     return when (type) {
